@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.nataly.smileorfrown.MainActivity"
+    android:background="#ffffffff">
+
+    <TextView android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameTitle"
+        android:textSize="@dimen/menu_title_text"
+        android:textColor="#f4000238"
+        android:layout_margin="@dimen/menu_title_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView android:text="@string/last_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastScore"
+        android:textSize="@dimen/menu_score_text"
+        android:textColor="#f4000238"
+        android:layout_margin="@dimen/menu_item_margin"
+        android:layout_below="@+id/gameTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="@string/high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScore"
+        android:textSize="@dimen/menu_score_text"
+        android:textColor="#f4000238"
+        android:layout_margin="@dimen/menu_item_margin"
+        android:layout_below="@+id/lastScore"
+        android:layout_centerHorizontal="true" />
+
+    <!-- start a new game -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_start"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/highScore"
+        android:text="@string/start_game_button"
+        android:background="@drawable/button_color"
+        android:textColor="#f4000238"
+        android:textSize="@dimen/menu_button_text"
+        android:padding="@dimen/menu_button_padding" />
+
+    <!-- go to settings  -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_settings"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_start"
+        android:text="@string/settings_button"
+        android:background="@drawable/button_color"
+        android:textColor="#f4000238"
+        android:textSize="@dimen/menu_button_text"
+        android:padding="@dimen/menu_button_padding" />
+
+    <!-- exit game -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_quit"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_settings"
+        android:text="@string/quit_game_button"
+        android:background="@drawable/button_color"
+        android:textColor="#f4000238"
+        android:textSize="@dimen/menu_button_text"
+        android:padding="@dimen/menu_button_padding" />
+
+    <!-- connect to google play -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_google_play"
+        android:layout_margin="@dimen/menu_button_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_quit"
+        android:text="@string/google_play_button_login"
+        android:background="@drawable/button_color"
+        android:textColor="#f4000238"
+        android:textSize="@dimen/menu_button_text"
+        android:padding="@dimen/menu_button_padding"
+        android:visibility="visible" />
+
+    <!--
+    sign-in button
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_google_play"
+        android:visibility="visible" />
+    -->
+</RelativeLayout>

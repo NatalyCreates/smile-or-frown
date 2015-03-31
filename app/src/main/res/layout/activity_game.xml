@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.games.nataly.smileorfrown.GameActivity"
+    android:background="#ffffffff">
+
+    <TextView android:text="@string/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="@dimen/game_intro_text"
+        android:textColor="#f4000238"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="@string/game_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreView"
+        android:textSize="@dimen/game_info_text"
+        android:textColor="#f4000238"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView" />
+
+    <TextView android:text="@string/game_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/difView"
+        android:textSize="@dimen/game_info_text"
+        android:textColor="#f4000238"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/scoreView" />
+
+    <TextView android:text="@string/game_strikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/strikeView"
+        android:textSize="@dimen/game_info_text"
+        android:textColor="#f4000238"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/difView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="@dimen/face_height"
+            android:layout_height="@dimen/face_width"
+            android:id="@+id/imageView"
+            android:src="@drawable/blank"
+            android:layout_margin="@dimen/face_margin"
+            android:layout_centerInParent="true" />
+
+        <TextView android:text="@string/get_ready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameNoteText"
+            android:textSize="@dimen/game_text"
+            android:textColor="#f4000238"
+            android:layout_margin="@dimen/game_text_margin"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/game_button_area_margin">
+
+        <Button
+            android:layout_width="@dimen/game_button_width"
+            android:layout_height="@dimen/game_button_height"
+            android:text="@string/game_button_good"
+            android:id="@+id/button_good"
+            android:layout_margin="@dimen/game_button_margin"
+            android:background="@drawable/button_color"
+            android:textColor="#f4000238"
+            android:textSize="@dimen/game_button_text"
+            android:enabled="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="@dimen/game_button_width"
+            android:layout_height="@dimen/game_button_height"
+            android:text="@string/game_button_bad"
+            android:id="@+id/button_bad"
+            android:layout_margin="@dimen/game_button_margin"
+            android:background="@drawable/button_color"
+            android:textColor="#f4000238"
+            android:textSize="@dimen/game_button_text"
+            android:enabled="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

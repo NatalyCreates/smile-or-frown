@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_id">681529939717</string>-->
+    <string name="app_id">681529939717</string>
+
+    <string name="leaderboard">CgkIha7m8uoTEAIQDA</string>
+
+    <string name="achievement_try">CgkIha7m8uoTEAIQAg</string>
+    <string name="achievement_score100">CgkIha7m8uoTEAIQAw</string>
+    <string name="achievement_score200">CgkIha7m8uoTEAIQBA</string>
+    <string name="achievement_score500">CgkIha7m8uoTEAIQBQ</string>
+    <string name="achievement_score800">CgkIha7m8uoTEAIQBg</string>
+    <string name="achievement_score1000">CgkIha7m8uoTEAIQBw</string>
+    <string name="achievement_score1500">CgkIha7m8uoTEAIQCA</string>
+    <string name="achievement_score2000">CgkIha7m8uoTEAIQCQ</string>
+    <string name="achievement_score2500">CgkIha7m8uoTEAIQCg</string>
+    <string name="achievement_score3000">CgkIha7m8uoTEAIQCw</string>
+
+</resources>

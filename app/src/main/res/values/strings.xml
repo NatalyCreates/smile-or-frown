@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmileOrFrown</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">Smile Or Frown</string>
+    <string name="title_activity_game">Smile Or Frown</string>
+
+    <!-- Main Activity -->
+    <string name="title">Smile Or Frown?</string>
+    <string name="last_score">"Last Score: "</string>
+    <string name="high_score">"High Score: "</string>
+
+    <string name="start_game_button">Start Game</string>
+    <string name="settings_button">Settings</string>
+    <string name="quit_game_button">Exit</string>
+
+    <string name="google_play_button_login">Sign in with Google</string>
+    <string name="google_play_button_logout">Sign out from Google</string>
+
+    <!-- Game Activity -->
+    <string name="intro">Smile Or Frown?</string>
+
+    <string name="game_over">Game Over!</string>
+    <string name="get_ready">Get Ready!</string>
+    <string name="strike">Strike!</string>
+    <string name="miss">Miss!</string>
+
+    <string name="game_score">"Score: "</string>
+    <string name="game_level">"Level: "</string>
+    <string name="game_strikes_format">Strikes: %1$d/%2$d</string>
+    <string name="game_strikes">Strikes: X/X</string>
+
+    <string name="game_button_good">Smile</string>
+    <string name="game_button_bad">Frown</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">Settings</string>
+
+    <string name="vibrate_button_on">Vibrate ON</string>
+    <string name="vibrate_button_off">Vibrate OFF</string>
+    <string name="sound_button_on">Sound ON</string>
+    <string name="sound_button_off">Sound OFF</string>
+
+    <string name="reset_score_button">Reset High Score</string>
+    <string name="back_button">Back</string>
+
+    <string name="some_setting">SOMETHING - show leaderboard?</string>
+
+    <!-- Google Play -->
+
+    <string name="signing_in">Signing in with Google</string>
+    <string name="signing_out">Signing out</string>
+
+    <string name="signed_out_greeting">Hello, anonymous user (not signed in)!</string>
+
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+
+    <string name="achievement_prime_toast_text">Prime score!</string>
+
+    <string name="achievement">Achievement</string>
+
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
+    <string name="see_your_progress">See your progress:</string>
+    <string name="show_achievements">Show Achievements</string>
+    <string name="show_leaderboards">Show Leaderboards</string>
+
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="you_win">You win! Your score is:</string>
+
+    <string name="sign_in_to_upload_this_score">Sign in now to upload this score, save your achievements and share your progress with friends.</string>
+    <string name="signin_other_error">There was an issue with sign in.  Please try again later.</string>
+
+</resources>
